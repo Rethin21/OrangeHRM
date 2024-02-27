@@ -55,7 +55,7 @@ public void  loginandAddemployee()throws InterruptedException{
 public void quit() throws InterruptedException {
 	
 	System.out.println("close browser");
-	
+	driver.close();
 	driver.quit();
 }
 
